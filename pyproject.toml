@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "google-gpt4"
+version = "1.0.0"
+description = ""
+authors = ["Yang, Bo <yang-bo@yang-bo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+chainlit = "^0.5.0"
+langchain = "^0.0.218"
+google-api-python-client = "^2.91.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
