@@ -11,4 +11,5 @@ A chatbot that uses Google Search to find the most relevant responses to the use
 ### Steps
 
 1. Clone the repository
-2. Run `poetry run chainlit run google_gpt4.py`
+2. Run `poetry install`
+3. Run `poetry run chainlit run google_gpt4.py`
