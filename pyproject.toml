@@ -5,14 +5,17 @@ description = ""
 authors = ["Yang, Bo <yang-bo@yang-bo.com>"]
 readme = "README.md"
 
+
 [tool.poetry.dependencies]
 python = "^3.10"
-chainlit = "^0.5.0"
-langchain = "^0.0.218"
+chainlit = "^0.7.1"
+langchain = "*"
 google-api-python-client = "^2.91.0"
+numexpr = "^2.8.7"
 
 [tool.poetry.group.dev.dependencies]
-jupyter = "^1.0.0"
+ipykernel = "^6.25.2"
+autoflake = "^2.2.1"
 
 [build-system]
 requires = ["poetry-core"]
